@@ -1479,11 +1479,501 @@
 }
 /* END Cards */
 
+/* BEGIN Help 1 */
+.help-1 {
+    background-color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.help-1 > .container > .row > .title {
+    margin-bottom: 30px;
+}
+
+.help-1 > .container > .icon > div {
+    display: flex;
+    justify-content: center;
+}
+
+.help-1 > .container > .row > .title > h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #002b45;
+}
+
+.help-1 > .container > .row > .list-items {
+    padding: 0;
+}
+
+.help-1 > .container > .row > .list-items:first-child {
+    border-right: 1px solid;
+}
+
+.help-1 > .container > .row > .list-items > .list-item {
+    color: #0077c0;
+    margin: 0px 20px;
+    font-weight: 600;
+    font-family: "Outfit Regular", sans-serif;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 20px 15px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(186, 199, 203);
+    cursor: pointer;
+}
+
+.help-1 > .container > .row > .list-items > .list-item > .arrow > i {
+    color: black;
+}
+
+@media (max-width: 992px) { 
+    .help-1 > .container > .row > .list-items:first-child {
+        border-right: 0px;
+    }
+
+    .help-1 > .container > .icon {
+        display: none;
+    }
+}
+
+/* END Help 1 */
+
+/* BEGIN Help 2 */
+.help-2 {
+    background-color: #FFF;
+    padding: 20px 0px;
+}
+
+.help-2 > .container > .row {
+    padding: 0 20px;
+}
+
+.help-2 > .container > .row > .accordion-custom {
+    padding: 0;
+}
+
+.help-2 > .container > .row > .accordion-custom > .accordion {
+    box-shadow: rgba(0, 43, 69, 0.25) 0px 2px 8px 0px;
+    border-radius: 4px;
+}
+
+.accordion-collapse {
+    max-height: 225px;
+    overflow-y: auto;
+}
+
+.accordion-button > span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.collapsed > span {
+    font-weight: 400;
+}
+
+.accordion-body:first-child {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.accordion-body {
+    padding-top: 4px !important;
+    padding-bottom: 10px !important;
+}
+
+.accordion-body > a {
+    font-weight: 400;
+    font-family: "Outfit Regular", sans-serif;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgb(0, 119, 192);
+}
+
+.accordion-body > a:hover {
+    text-decoration: underline;
+}
+
+.help-2 > .container > .row > .help-2-right {
+    padding-top: 20px;
+    padding-left: 25px;
+}
+
+.help-2 > .container > .row > .help-2-right > .title > p {
+    padding-bottom: 30px;
+    font-size: 14px;
+    color: #002b45;
+    margin: 0;
+}
+
+.help-2 > .container > .row > .help-2-right > .title-question {
+    padding: 0;
+}
+
+.help-2 > .container > .row > .help-2-right > .title-question > p {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #002b45;
+}
+
+.help-2 > .container > .row > .help-2-right > .questions > .question {
+    font-weight: 400;
+    font-family: "Outfit Regular", sans-serif;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 15px 15px 20px 15px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    border-bottom: 1px solid rgb(186, 199, 203);
+    cursor: pointer;
+    color: #0077c0;
+}
+
+/* END Help 2 */
+
+/* BEGIN Client */
+.client { 
+    padding: 20px 0;
+    background-color: #e3e9e9;
+}
+
+.client > .container > .row > div {
+    background-color: #002b45;
+    color: #FFF;
+}
+
+.client > .container > .row > div > .client-title > .title {
+    border-left: none;
+    border-top: 2px solid #31c3df;
+    color: #fff;
+    padding-left: 48px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+
+}
+
+.client > .container > .row > div > .client-title > .title > p {
+    font-family: Outfit Regular,sans-serif;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 28px;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside {
+    padding: 0;
+    padding-left: 48px;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .dash {
+    background: #31c3df;
+    margin-left: 0;
+    width: 20px;
+    display: block;
+    height: 4px;
+    margin-bottom: 26px;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-container {
+    padding: 0;
+    position: relative;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-container > ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-container > ul li {
+    border-left: 1px solid #31c3df;
+    padding-left: 12px;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-container > ul > li > h5 {
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+    font-weight: 560;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-container > ul > li > h5 > span {
+    font-size: 22px;
+    left: 0;
+    position: absolute;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-container > ul > li > p {
+    color: #bac7cb;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 32px;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container {
+    padding-right: 0;
+    padding-left: 0;
+    width: 40%;
+}
+
+@media (max-width: 768px) { 
+    .client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container {
+        width: 90%;
+    }
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-hand {
+    background-color: #31c3df;
+    color: #fff;
+    padding: 16px 20px 2px;
+    position: relative;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-hand > p {
+    font-family: Outfit Regular,sans-serif;
+    font-size: 14px;
+    color: #002b45;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-hand > ul {
+    padding-left: 40px;
+    list-style: none;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-hand > ul > li > i {
+    position: absolute;
+    left: 20px;
+    text-align: center;
+    color: #002b45;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-hand > ul > li > h5 {
+    font-size: 14px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-family: Outfit Semibold,sans-serif;
+    color: #002b45;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-holder {
+    margin-top: 24px;
+}
+
+.client > .container > .row > div > .client-body > .client-body-inside > div > .row > .info-right-container > .info-holder > p {
+    color: #bac7cb;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+/* END Client */
+
+/* BEGIN Contact Information */
+.contact-info {
+    background-color: #09161d;
+}
+
+.contact-info > .container > .row {
+    padding-top: 50px;
+}
+
+.contact-info > .container > .row > .contact-left > .title {
+    margin-bottom: 15px;
+}
+
+.contact-info > .container > .row > .contact-left > .title > p {
+    color: #FFF;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.contact-info > .container > .row > .contact-left > .content {
+    margin-bottom: 15px;
+}
+
+.contact-info > .container > .row > .contact-left > .content > p {
+    color: #FFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.contact-info > .container > .row > .contact-left > .phone {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.contact-info > .container > .row > .contact-left > .phone > .icon {
+    margin-right: 10px;
+    display: inline-block;
+    line-height: 0;
+}
+
+.contact-info > .container > .row > .contact-left > .phone > .text {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item {
+    margin-bottom: 15px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .text {
+    margin-bottom: 10px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .text > label {
+    margin: 0;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .input {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: text;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(186, 199, 203);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 0.2s ease-in-out 0s;
+    height: 44px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item:last-child {
+    margin-top: 15px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .input > span {
+ height: 100%;
+ border-radius: 2px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .input > input, select {
+    border-radius: 2px;
+    border: 0;
+    font-family: "Outfit Regular", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    border: 0px;
+    background: none;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    color: rgb(0, 43, 69);
+    padding-left: 10px;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .input >  select {
+    border-radius: 0;
+}
+
+.contact-info > .container > .row > .contact-right > form > .form-item > .btn {
+    outline: none;
+    font-family: "Outfit Regular", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    min-width: auto;
+    border-radius: 4px;
+    border: none;
+    transition: background 0.2s ease-in-out 0s, color 0.2s ease-in-out 0s;
+    padding: 0px 20px;
+    height: 44px;
+    background: rgb(255, 77, 82);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+.contact-info > .container > .legend {
+    padding-top: 0px;
+    color: #FFF;
+    font-size: 12px;
+    list-style: 16px;
+}
+.contact-info > .container > .legend > p > a {
+    padding-top: 0px;
+    color: #FFF;
+    font-size: 12px;
+    list-style: 16px;
+    font-weight: 600;
+}
+
+/* END Contact Information */
+
 /* BEGIN Footer */
 .footer {
     background-color: #002b45;
 }
 
-.footer > .brand { 
+.brand { 
     background-color: #FFF;
+    color: #525b61;
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.brand > .container > .row > div > p {
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: "Outfit Regular", sans-serif;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none;
+}
+
+.brand > .container > .row > div > .img {
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.brand > .img > img {
+    margin-right: 5px;
 }
