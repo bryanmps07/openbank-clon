@@ -1298,3 +1298,192 @@
 }
 
 /* END Post-2 */
+
+
+/* BEGIN info */
+.info {
+    background-color: #FFF;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.info > .container > .row-container > div {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: rgba(0, 43, 69, 0.15) 0px 1px 4px 0px;
+}
+
+.info > .container > .row-container > div > .row > div > .image {
+    display: flex;
+    justify-content: center;
+}
+
+.info > .container > .row-container > div > .row > div > .image > img {
+    width: 120px;
+    height: 120px;
+}
+
+.info > .container > .row-container > div > .row > div > .title > h3 {
+    color: #002b45;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.info > .container > .row-container > div > .row > div > .details {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info > .container > .row-container > div > .row > div > .details > p {
+    color: #002b45;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.info > .container > .row-container > div > .row > div > .btn-consult > a {
+    font-family: "Outfit Regular", sans-serif;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(223, 0, 73);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.info > .container > .row-container > div > .row > div > .btn-consult > a:hover { 
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 768px) { 
+    .info > .container > .row-container > div > .row > div > .title2 {
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px) { 
+    .info > .container > .row-container > div > .row > div > .title { 
+        display: none;
+    }
+
+    .info > .container > .row-container > div > .row > div > .details {
+        margin-top: 20px;
+    }
+
+    .info > .container > .row-container > div > .row > div > .title2 > h3 {
+        display: block;
+        color: #002b45;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+}
+/* END info */
+
+/* BEGIN Cards */
+.cards {
+    background-color: #FFF;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cards > .container {
+    padding: 0 20px;
+}
+
+.cards > .container > .row > div {
+    font-weight: 400;
+    font-family: "Outfit Regular", sans-serif;
+    transition: all 0.2s ease-in-out 0s;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cards > .container > .row > .card {
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 90px;
+
+    margin: 15px 10px 15px 0px;
+    border-radius: 4px;
+    box-shadow: rgba(0, 43, 69, 0.25) 0px 1px 4px 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    transform: scale(1);
+    transition: transform 0.1s ease-in-out 0s;
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+    .cards > .container > .row > .card {
+        width: 45%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .cards > .container > .row > .card {
+        width: 23%;
+    }
+}
+@media (min-width: 1200px) { 
+    .cards > .container > .row > .card {
+        width: 23%;
+    }
+}
+
+.cards > .container > .row > .card > a {
+    text-decoration: none;
+    width: 100%;
+}
+
+.cards > .container > .row > .card::after {
+    content: " ";
+    width: 5px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: rgb(0, 43, 69);
+}
+
+.cards > .container > .row > .card > a > .row > .image > img{
+    width: 70px;
+    height: 70px;
+}
+
+.cards > .container > .row > .card > a > .row > .text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.cards > .container > .row > .card > a > .row > .text > h2 {
+    font-size: 16px;
+    color: #002b45;
+    font-weight: 600;
+}
+/* END Cards */
+
+/* BEGIN Footer */
+.footer {
+    background-color: #002b45;
+}
+
+.footer > .brand { 
+    background-color: #FFF;
+}
