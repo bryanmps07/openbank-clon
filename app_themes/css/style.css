@@ -115,6 +115,12 @@
 }
 /* END Header */
 
+/* BEGIN Carousel */
+.carousel-caption {
+    bottom: 3.25em !important;
+}
+/* END Carousel */
+
 /* BEGIN Box */
 .box {
     background-color: #FFF;
@@ -2161,7 +2167,21 @@
     z-index: 20999;
 }
 
-.botonera > .container > .row > .buttons-area > div > a, button{
+.botonera > .container > .row > .buttons-area > div > a{
+    font-family: "Outfit Regular",Outfit Regular,Open Sans,Arial,sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    vertical-align: middle;
+    font-size: 14px !important;
+    height: 36px !important;
+    padding: 0px 22px !important;
+    border-radius: 3px !important;
+    line-height: 32px !important;
+}
+
+.botonera > .container > .row > .buttons-area > div > button {
     font-family: "Outfit Regular",Outfit Regular,Open Sans,Arial,sans-serif;
     font-weight: normal;
     display: inline-block;
